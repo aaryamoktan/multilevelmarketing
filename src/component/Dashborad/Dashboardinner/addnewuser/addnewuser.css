@@ -1,0 +1,60 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.addnewuser
+{
+    position:absolute;
+    left:20%;
+    top:0%;
+    background:rgb(253, 237, 237);
+    height:100vh;
+    width:80%;
+}
+.addnewuser .adduser
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+.addnewuser .adduser label
+{
+    color:black;
+}
+.addnewuser .adduser .name
+{
+    position: relative;
+    width:25%;
+    position:relative;
+    margin-left:30px;
+}
+.addnewuser .adduser .email
+{
+    position:relative;
+    width:25%;
+    margin-left:30px;
+}
+.addnewuser .adduser .Password
+{
+    position:relative;
+    width:25%;
+    margin-left:30px;
+}
+.addnewuser .adduser .Provision
+{
+    position:relative;
+    width:25%;
+    margin-left:30px;
+}
+.addnewuser .adduser .Munsipality
+{
+    position:relative;
+    width:25%;
+    margin-left:30px;
+}
+
+
+
+
+

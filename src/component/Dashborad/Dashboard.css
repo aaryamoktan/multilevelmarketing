@@ -1,0 +1,82 @@
+*
+{
+    padding :0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+.maindiv
+{
+    background:rgb(148, 148, 224);
+    width:20%;
+    height: 100vh;
+}
+.maindiv .secmaindiv
+{
+    position:relative;
+    top:15px;
+}
+.maindiv .secmaindiv .logo
+{
+    position:relative;
+    width:70%;
+    left:10%;
+    text-align: center;
+    line-height: 400%; 
+}
+
+.maindiv .secmaindiv .dashboard
+{
+    position:relative;
+    border-top: 1px solid rgb(175, 174, 174);
+    line-height: 400%;
+    left:30px;
+    top:10px;
+    width:75%;
+    border-bottom: 1px solid rgb(175, 174, 174);
+}
+.maindiv .secmaindiv .user
+{
+    position:relative;
+    top:20px;
+    left:30px;
+    border-bottom: 1px solid rgb(175, 174, 174);
+    width:75%;
+}
+.maindiv .secmaindiv .user p{
+    font-size: 15px;
+    position:relative;
+    left:0px;   
+}
+.maindiv .secmaindiv ul{
+    list-style-type:none;
+    
+}
+.maindiv .secmaindiv  .user .last
+{
+    margin-bottom: 30px;
+}
+.maindiv .secmaindiv  .user li
+{
+    
+    position:relative;
+   margin-top:30px;
+}
+.maindiv .secmaindiv  .managepeople
+{
+    position:relative;
+    top:35px;
+    left:30px;
+    border-bottom: 1px solid rgb(175, 174, 174);
+    width:75%
+}
+.maindiv .secmaindiv  .managepeople ul{
+    list-style-type:none;
+}
+.maindiv .secmaindiv  .managepeople li{
+    margin-top:20px;
+}
+.maindiv .secmaindiv  .managepeople .logout
+{
+    margin-bottom: 30px;
+}
