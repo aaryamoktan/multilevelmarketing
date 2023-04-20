@@ -6,55 +6,50 @@
 }
 .addnewuser
 {
-    position:absolute;
-    left:20%;
-    top:0%;
+    position:relative;
     background:rgb(253, 237, 237);
     height:100vh;
-    width:80%;
+    width:100%;
 }
-.addnewuser .adduser
+.addnewuser p{
+    text-align: center;
+}
+.addnewuser .Personaldetails
 {
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
-.addnewuser .adduser label
+.addnewuser .Personaldetails label
 {
     color:black;
 }
-.addnewuser .adduser .name
+.addnewuser .Addresh
 {
-    position: relative;
-    width:25%;
-    position:relative;
-    margin-left:30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
-.addnewuser .adduser .email
-{
-    position:relative;
-    width:25%;
-    margin-left:30px;
-}
-.addnewuser .adduser .Password
+.addnewuser .adhar
 {
     position:relative;
-    width:25%;
-    margin-left:30px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.addnewuser .adduser .Provision
+.addnewuser .submit
 {
     position:relative;
-    width:25%;
-    margin-left:30px;
+    width:100%;
+    
+    
 }
-.addnewuser .adduser .Munsipality
+.addnewuser .submit button
 {
-    position:relative;
-    width:25%;
-    margin-left:30px;
+   
+    align-items: center;
+    width:30%;
+    margin-left:35%;
+    background:rgb(179, 228, 179);
+   
 }
-
-
-
-
-

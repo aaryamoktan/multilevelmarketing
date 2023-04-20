@@ -2,7 +2,8 @@ import React from 'react'
 import "./Dashboard.css";
 import {BsPersonFillLock,BsListUl} from "react-icons/bs";
 import { AiFillEye,AiOutlineUser,AiFillGold,AiOutlineLogout } from "react-icons/ai";
-import { Link } from 'react-router-dom';
+
+import { Link ,NavLink} from 'react-router-dom';
 const Dashboard = () => {
   return (
     <>
@@ -15,11 +16,11 @@ const Dashboard = () => {
                 <div className='user'>
                     <p>User</p>
                     <ul>
-                        <li><Link to="/addnewuser"><AiOutlineUser/> Add New User</Link></li>
-                        <li><Link to="/viewuser"><AiFillEye/> View User</Link></li>
-                        <li><Link><AiFillEye/> View Free User</Link></li>
-                        <li><Link><AiFillGold/> View Binary Tree</Link></li>
-                        <li className='last'><Link>Generate New User</Link></li>
+                        <li><NavLink  style={{textDecoration:"none", color:'black'}} to="/"><AiOutlineUser/> Add New User</NavLink></li>
+                        <li><NavLink style={{textDecoration:"none", color:'black'}} to="/viewuser"><AiFillEye/> View User</NavLink></li>
+                        <li><NavLink style={{textDecoration:"none", color:'black'}} ><AiFillEye/> View Free User</NavLink></li>
+                        <li><NavLink style={{textDecoration:"none", color:'black'}} ><AiFillGold/> View Binary Tree</NavLink></li>
+                        <li className='last'><NavLink style={{textDecoration:"none", color:'black'}} >Generate New User</NavLink></li>
                     </ul>
                 </div>
                 <div className='managepeople'>
