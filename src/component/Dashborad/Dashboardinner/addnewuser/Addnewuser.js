@@ -5,18 +5,13 @@ const Addnewuser = () => {
         <>
             <div className='addnewuser'>
             <br/>
-                <p>fill the form</p>
-                
+                <p>Fill The Form</p>    
                 <br />
                 <form>
                 <hr />
                 <p>Basic Details</p>
                 <div className='Personaldetails'>
-
-
-
                     <div className='name'>
-
                         <lable >Name:</lable>
                         <br />
                         <input type="text" required />
@@ -114,7 +109,10 @@ const Addnewuser = () => {
                         <br/>
                         <input type="date"/>
                     </div>
-                    
+                    <div className='ref'>
+                        <lable>Reference_No</lable><br/>
+                            <input type="number"/>          
+                    </div>       
                 </div>
                 <br/>
                 <hr/>
@@ -124,11 +122,7 @@ const Addnewuser = () => {
                 </div>
                 </form>
             </div>
-
-
-
         </>
     )
 }
-
 export default Addnewuser
