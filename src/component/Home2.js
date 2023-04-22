@@ -1,13 +1,13 @@
 import React from 'react'
 import NavScrollExample from './Nevbar/Nevbar'
 import Dashboardmain from './Dashborad/Dashboardmain'
-import Login from './login/Login'
-const Home = () => {
+const Home2 = () => {
   return (
     <>
-        <Login/>
+      <NavScrollExample/>
+      <Dashboardmain/>
     </>
   )
 }
 
-export default Home
+export default Home2

@@ -1,0 +1,45 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+.logincontainer
+{
+    width:100%;
+    height:100vh;
+    background-image:url("https://st4.depositphotos.com/18433260/21590/i/1600/depositphotos_215902540-stock-photo-human-resources-management-concept-blurred.jpg");
+    background-repeat: no-repeat;  
+}
+.logincontainer .form
+{
+    position:relative;
+    width:20%;
+    height:50vh;
+    background :transparent;
+    left:40%;
+    top:30%;
+    backdrop-filter: blur(3px);
+    border-radius: 4px;
+    color:black;
+    box-shadow: -1px -1px 29px black;
+}
+
+.logincontainer .form .content
+{
+    position:relative;
+    left:20%;
+    top:20%;
+}
+.logincontainer .form .content .login{
+    position:relative;
+    width:100%;
+}
+.logincontainer .form .content .login button
+{
+    position:relative;
+    width:30%;
+    border-radius: 10px;
+    background:rgb(43, 218, 43);
+    top:10px;
+    left:15%;
+}
