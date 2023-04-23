@@ -1,0 +1,49 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.regist
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.regist .registcont
+{
+    position:relative;
+    top:20%;
+    left:37%;
+    width:25%;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px black;
+    backdrop-filter: blur(10px);
+}
+.regist .registcont .form
+{
+    position:relative;
+    left:25%;
+    top:5vh;
+}
+.regist .registcont p{
+    position:relative;
+    left:28.5%;
+    top:4vh;
+    width:41%;
+    font-size: 20px;
+    color:black;
+    backdrop-filter: blur(100px);
+    text-decoration: underline;
+}
+.regist .registcont .form .submit button{
+    position:relative;
+    width:30%;
+    background:rgb(80, 180, 80);
+    left:10%;
+}

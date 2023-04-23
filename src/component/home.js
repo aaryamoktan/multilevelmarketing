@@ -8,7 +8,7 @@ const Home = () => {
     <>
         <Login/>
         <Routes>
-          <Route path="/registrtation" element={<Registration/>}></Route>
+        <Route path="/regist" element={<Registration/>}/>
         </Routes>
     </>
   )

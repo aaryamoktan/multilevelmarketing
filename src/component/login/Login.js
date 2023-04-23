@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink} from "react-router-dom"
+import {Link} from "react-router-dom"
 import "./login.css"
 const Login = () => {
     return (
@@ -24,7 +24,7 @@ const Login = () => {
                         </div></form>
                         <br/>
                         <div className='regist'>
-                         <NavLink to="/registration"><button type="regist">Create New Account</button></NavLink>
+                         <Link to="/regist"><p type="regist">Create New Account</p></Link>
                         </div>
                     </div>
                 </div>
