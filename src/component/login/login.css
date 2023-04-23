@@ -43,3 +43,14 @@
     top:10px;
     left:15%;
 }
+.logincontainer .regist
+{
+    position:relative;
+    top:5px;
+    left:15px;
+}
+.logincontainer .regist button
+{
+    border-radius: 5px;
+    background:rgb(214, 214, 160);
+}

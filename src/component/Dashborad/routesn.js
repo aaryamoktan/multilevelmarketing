@@ -7,7 +7,7 @@ const Routesn = () => {
     <>
         <Routes>
           <Route path="/" element={<Addnewuser/>}/>
-          <Route path="viewuser" element={<Viewuser/>}/>
+          <Route path="/viewuser" element={<Viewuser/>}/>
         </Routes>
     </>
   )
