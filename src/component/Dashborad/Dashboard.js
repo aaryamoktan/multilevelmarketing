@@ -18,8 +18,8 @@ const Dashboard = () => {
                     <ul>
                         <li><NavLink  style={{textDecoration:"none", color:'black'}} to="/"><AiOutlineUser/> Add New User</NavLink></li>
                         <li><NavLink style={{textDecoration:"none", color:'black'}} to="/viewuser"><AiFillEye/> View User</NavLink></li>
-                        <li><NavLink style={{textDecoration:"none", color:'black'}} ><AiFillEye/> View Free User</NavLink></li>
-                        <li><NavLink style={{textDecoration:"none", color:'black'}} ><AiFillGold/> View Binary Tree</NavLink></li>
+                        <li><NavLink style={{textDecoration:"none", color:'black'}} to="/viewfreeuser" ><AiFillEye/> View Free User</NavLink></li>
+                        <li><NavLink style={{textDecoration:"none", color:'black'}}  to="/viewbinarytree"><AiFillGold/> View Binary Tree</NavLink></li>
                         <li className='last'><NavLink style={{textDecoration:"none", color:'black'}} >Generate New User</NavLink></li>
                     </ul>
                 </div>

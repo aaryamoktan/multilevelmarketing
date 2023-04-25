@@ -20,9 +20,9 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link className='neb3 main_neb' ><NavLink to="/" style={{textDecoration:"none",color:"black"}}>Home</NavLink></Nav.Link>
-            <Nav.Link className='neb3'><NavLink to="/About" style={{textDecoration:"none",color:"black"}}>Abouts-Us</NavLink></Nav.Link>
-            <Nav.Link className='neb3'><NavLink to="/Contact" style={{textDecoration:"none",color:"black"}}>Contact-Us</NavLink></Nav.Link>
-            <Nav.Link className='neb3'><NavLink to="/Progress" style={{textDecoration:"none",color:"black"}}>Progress</NavLink></Nav.Link>
+            <Nav.Link className='neb3'><NavLink to="/about" style={{textDecoration:"none",color:"black"}}>Abouts-Us</NavLink></Nav.Link>
+            <Nav.Link className='neb3'><NavLink to="/contact" style={{textDecoration:"none",color:"black"}}>Contact-Us</NavLink></Nav.Link>
+            <Nav.Link className='neb3'><NavLink to="/progress" style={{textDecoration:"none",color:"black"}}>Progress</NavLink></Nav.Link>
             
             
           </Nav>

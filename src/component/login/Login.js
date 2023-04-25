@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import Home2 from '../Home2';
 import "./login.css"
 const Login = () => {
     return (
@@ -20,7 +21,7 @@ const Login = () => {
                         </div>
                         
                         <div className='login'>
-                            <button type = "submit">Submit</button>
+                          <button type = "submit">Submit</button>
                         </div></form>
                         <br/>
                         <div className='regist'>
