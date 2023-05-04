@@ -1,9 +1,8 @@
-import React from 'react'
-import "./progress.css"
+import React from 'react';
+import "./progress.css";
 const Progress = () => {
   return (
-    <div>Preogress report our company</div>
+    <div>Progress Report Our Company</div>
   )
 }
-
 export default Progress

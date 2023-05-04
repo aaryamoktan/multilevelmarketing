@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Viewb = () => {
   return (
     <>
@@ -7,5 +6,4 @@ const Viewb = () => {
     </>
   )
 }
-
 export default Viewb

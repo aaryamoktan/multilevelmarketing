@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Viewn = () => {
   return (
     <>
@@ -7,5 +6,4 @@ const Viewn = () => {
     </>
   )
 }
-
 export default Viewn

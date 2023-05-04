@@ -2,16 +2,13 @@ import React from 'react'
 import "./Dashboard.css";
 import {BsPersonFillLock,BsListUl} from "react-icons/bs";
 import { AiFillEye,AiOutlineUser,AiFillGold,AiOutlineLogout } from "react-icons/ai";
-
 import { Link ,NavLink} from 'react-router-dom';
 const Dashboard = () => {
   return (
     <>
         <div className='maindiv'>
             <div className='secmaindiv'>
-            
-                <div className='logo'>MLM</div>
-               
+                <div className='logo'>MLM</div>               
                 <div className='dashboard'><BsListUl/> Dashboard</div>
                 <div className='user'>
                     <p>User</p>
@@ -35,5 +32,4 @@ const Dashboard = () => {
     </>
   )
 }
-
 export default Dashboard

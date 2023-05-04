@@ -24,5 +24,4 @@ const Routesn = () => {
     </>
   )
 }
-
 export default Routesn

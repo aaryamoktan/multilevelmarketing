@@ -5,5 +5,4 @@ const Contact = () => {
     <div>Contact us for feedback</div>
   )
 }
-
 export default Contact
