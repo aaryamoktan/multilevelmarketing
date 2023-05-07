@@ -7,7 +7,8 @@ import Login from './login/Login'
 const Home = () => {
   return (
     <>
-        <Home2/>
+        <Login/>
+        
         <Routes>
         <Route path="/regist" element={<Registration/>}/>
         <Route path="/home" element={<Home2/>}/>
