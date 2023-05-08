@@ -9,9 +9,9 @@ mongoose.connect(DB).then(()=>
 {
     console.log("fail")
 })
-app.use(require("./Routes/registration"));
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
+
 app.get("/",(req,res)=>
 {
     res.send("hello aarya moktan welcome");
